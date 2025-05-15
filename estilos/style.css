@@ -68,6 +68,25 @@ section#login>div#imagem{
         div#form>p{
             font-size:0.8em;
         }
+        form>div.campo{
+            background-color:#5f2c82;
+            display:block;
+            width:100%;
+            height:40px;
+
+            border-radius:5px;
+            margin:5px 0px;
+        }
+        div.campo>label{
+            display:none;
+        }
+        div.campo>i{
+           color:white;
+           background-color:black;
+           font-family:2em;
+           padding:5px;
+           width:40px;
+        }
         form>input[type=submit]{
             display:block;
             font-size: 1em;
@@ -91,7 +110,7 @@ section#login>div#imagem{
             text-decoration: none;
             text-align: center;
             font-size:1em;
-            background-color: #5bc0bc;
+            background-color:rgb(255, 255, 255);
             border: 1px solid #3aa4a0;
             width:100%;
             height:40px;
@@ -99,6 +118,11 @@ section#login>div#imagem{
             padding-top: 5px;
             margin-top: 5px;
             color:#244d4b
+         }
+         form>a.botao:hover{
+
+            background-color:#49a09d
+
          }
          form>a.botao>i{
             font-size: 0.8em;
